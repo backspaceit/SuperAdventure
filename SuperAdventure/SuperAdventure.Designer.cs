@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnTest = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.lblHitPoints = new System.Windows.Forms.Label();
             this.lblGold = new System.Windows.Forms.Label();
@@ -38,16 +37,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.SuspendLayout();
-            // 
-            // btnTest
-            // 
-            this.btnTest.Location = new System.Drawing.Point(329, 174);
-            this.btnTest.Name = "btnTest";
-            this.btnTest.Size = new System.Drawing.Size(75, 23);
-            this.btnTest.TabIndex = 0;
-            this.btnTest.Text = "button1";
-            this.btnTest.UseVisualStyleBackColor = true;
-            this.btnTest.Click += new System.EventHandler(this.btnTest_Click);
             // 
             // label1
             // 
@@ -130,7 +119,6 @@
             this.Controls.Add(this.lblGold);
             this.Controls.Add(this.lblHitPoints);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnTest);
             this.Name = "SuperAdventure";
             this.Text = "My Game";
             this.ResumeLayout(false);
@@ -139,8 +127,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btnTest;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label lblHitPoints;
         private System.Windows.Forms.Label lblGold;
