@@ -29,6 +29,39 @@ namespace SuperAdventure
             _player.Level = 1;
         }
 
-        
+        private void btnWest_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnNorth_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEast_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnSouth_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnUseWeapon_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SuperAdventure_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnUsePotion_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
